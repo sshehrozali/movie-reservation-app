@@ -11,12 +11,101 @@
 
     <title>Book your Seat!</title>
   </head>
-  <body>
-    <h1 class="display-1">Movie Seat Reservation App</h1>
+  <body class="d-flex align-items-center">
+    
+    <!-- Seat Bookings Selection -->
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="row d-flex flex-column justify-content-center align-items-center">
 
+            <!-- FIRST ROW (12x) -->
+            <div class="col-12" id="first-row">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-1" value="R1-1" onchange="seatSelect('R1-1')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-2" value="R1-2" onchange="seatSelect('R1-2')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-3" value="R1-3" onchange="seatSelect('R1-3')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-4" value="R1-4" onchange="seatSelect('R1-4')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-5" value="R1-5" onchange="seatSelect('R1-5')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-6" value="R1-6" onchange="seatSelect('R1-6')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-7" value="R1-7" onchange="seatSelect('R1-7')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-8" value="R1-8" onchange="seatSelect('R1-8')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-9" value="R1-9" onchange="seatSelect('R1-9')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-10" value="R1-10" onchange="seatSelect('R1-10')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-11" value="R1-11" onchange="seatSelect('R1-11')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R1-12" value="R1-12" onchange="seatSelect('R1-12')">
+                  </div>
+            </div>
+
+            <!-- SECOND ROW (12x) -->
+            <div class="col-12" id="second-row">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-1" value="R2-1" onchange="seatSelect('R2-1')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-2" value="R2-2" onchange="seatSelect('R2-2')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-3" value="R2-3" onchange="seatSelect('R2-3')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-4" value="R2-4" onchange="seatSelect('R2-4')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-5" value="R2-5" onchange="seatSelect('R2-5')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-6" value="R2-6" onchange="seatSelect('R2-6')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-7" value="R2-7" onchange="seatSelect('R2-7')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-8" value="R2-8" onchange="seatSelect('R2-8')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-9" value="R2-9" onchange="seatSelect('R2-9')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-10" value="R2-10" onchange="seatSelect('R2-10')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-11" value="R2-11" onchange="seatSelect('R2-11')">
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="R2-12" value="R2-12" onchange="seatSelect('R2-12')">
+                  </div>
+            </div>
+        </div>
+
+        <h1 class="display-6 text-white text-center mt-5" id="text">Total Seat Selected: 0</h1>
+    </div>
+
+    
+      
 
     <!-- App JS File -->
-    <script src="index/app.js"></script>
+    <script src="app/index/app.js"></script>
 
   </body>
 </html>
