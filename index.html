@@ -11,8 +11,16 @@
 
     <title>Movie Reservation App 🎬</title>
   </head>
-  <body class="d-flex align-items-center">
+  <body class="d-flex flex-column align-items-center justify-content-center">
     
+    <!-- Status Bar -->
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link active mx-5" aria-current="page" href="#">Booked:&nbsp&nbsp <span class="fw-bold" id="bookings">0</span></a>
+        <a class="flex-sm-fill text-sm-center nav-link mx-5" href="#" style="color: #FF206E !important;">Remaining Seats:&nbsp&nbsp <span class="fw-bold" id="remaining">0</span></a>
+        <a class="flex-sm-fill text-sm-center nav-link mx-5" href="#" style="color: #FBFF12 !important;">Movie Name:&nbsp&nbsp <span class="fw-bold" id="movie-name">Hacker 2077</span></a>
+        <a class="flex-sm-fill text-sm-center nav-link mx-5 disabled" href="#" style="color: #41EAD4 !important;">Total Seats:&nbsp&nbsp <span class="fw-bold" id="total-seats">60</span></a>
+      </nav>
+
     <!-- Seat Bookings Selection -->
     <div class="container d-flex flex-column justify-content-center align-items-center">
         <h1 class="display-4 text-center text-white mb-5">Book your Seat</h1>
