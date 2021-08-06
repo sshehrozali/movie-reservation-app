@@ -1,0 +1,23 @@
+{
+  "name": "movie-reservation-app",
+  "version": "1.0.0",
+  "description": "This is a Movie Reservation app built for client-side for seat bookings for cinemas and movie theatres.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshehrozali/movie-reservation-app.git"
+  },
+  "author": "Syed Shehroz Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshehrozali/movie-reservation-app/issues"
+  },
+  "homepage": "https://github.com/sshehrozali/movie-reservation-app#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "tailwindcss": "^2.2.7"
+  }
+}
